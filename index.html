@@ -213,38 +213,43 @@
   <section id="inscription" class="section highlight">
     <div class="container grid-2">
       <div>
-        <h2>Je veux participer</h2>
-        <p>Inscrivez-vous pour recevoir l’ouverture des candidatures exposants, le programme définitif et les infos pratiques.</p>
-        <form class="form" action="#" method="post" onsubmit="alert('Merci ! Votre demande a bien été enregistrée.'); return false;">
-          <label>Nom & prénom
-            <input type="text" name="name" placeholder="Votre nom" required>
-          </label>
-          <label>Email
-            <input type="email" name="email" placeholder="vous@exemple.com" required>
-          </label>
-          <label>Je suis
-            <select name="role" required>
-              <option value="">— Sélectionnez —</option>
-              <option value="visiteur">Visiteur</option>
-              <option value="exposant">Exposant</option>
-              <option value="benevole">Bénévole</option>
-              <option value="partenaire">Partenaire</option>
-            </select>
-          </label>
-          <label>Message (optionnel)
-            <textarea name="message" rows="4" placeholder="Dites-nous en plus…"></textarea>
-          </label>
-          <button class="btn primary" type="submit">Envoyer</button>
-        </form>
-        <p class="muted tiny">En soumettant ce formulaire, vous acceptez d’être contacté(e) par Summer Santa.</p>
+        <h2>Contactez-nous</h2>
+        <p><strong>Vous souhaitez nous contacter ?</strong></p>
+        <p>Que vous soyez interesse(e) pour :</p>
+        <ul class="check">
+          <li><strong>Visiter</strong> l'evenement</li>
+          <li><strong>Devenir exposant</strong> (artisan, createur, producteur)</li>
+          <li><strong>Etre benevole</strong> et rejoindre l'equipe</li>
+          <li><strong>Partenariat</strong> (ville, institution, sponsor)</li>
+          <li><strong>Presse</strong> et medias</li>
+        </ul>
+        <p class="muted">Merci de bien preciser dans votre email :</p>
+        <ul class="check">
+          <li>Votre <strong>nom et prenom</strong></li>
+          <li>L'<strong>objet de votre demande</strong> (visiteur, exposant, benevole, partenaire ou presse)</li>
+          <li>Votre <strong>message detaille</strong></li>
+        </ul>
+        <div class="card" style="margin-top: 20px; background: linear-gradient(135deg, #0fb5b5 0%, #0aa2a2 100%); color: white; text-align: center; padding: 30px;">
+          <h3 style="color: white; margin-bottom: 15px;">Contactez-nous par email</h3>
+          <p style="font-size: 1.3rem; margin: 10px 0;">
+            <a href="mailto:summersantabox@gmail.com" style="color: #ffd700; font-weight: bold; text-decoration: none; font-size: 1.5rem;">
+              summersantabox@gmail.com
+            </a>
+          </p>
+          <p style="font-size: 0.95rem; opacity: 0.9; margin-top: 15px;">Cliquez sur l'email pour nous ecrire directement</p>
+        </div>
+        
       </div>
       <div class="card">
         <h3>Contacts</h3>
         <p><strong>SUMMER SANTA</strong><br>SIREN 831 937 750<br>Var – France</p>
-        <p>Email : <a href="mailto:hello@summersanta.fr">hello@summersanta.fr</a></p>
+        <p>Email : <a href="mailto:summersantabox@gmail.com"><strong>summersantabox@gmail.com</strong></a></p>
         <p>Site : <a href="https://www.summersanta.fr" target="_blank" rel="noopener">summersanta.fr</a></p>
-        <h4>Partenariats</h4>
+        <h4>Partenariats institutionnels</h4>
         <p>Institutions, villes, sponsors : discutons d’une mise à disposition de lieu (place publique/gymnase) et d’animations pour la population.</p>
+
+        <h4>Delais de reponse</h4>
+        <p class="muted tiny">Nous repondons generalement sous 48h ouvrees. Pour les candidatures exposants, merci de prevoir un delai plus long en periode de forte demande.</p>
       </div>
     </div>
   </section>
@@ -289,5 +294,6 @@
       document.getElementById('y').textContent = new Date().getFullYear();
     </script>
   </footer>
+
 </body>
 </html>
