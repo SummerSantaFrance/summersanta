@@ -58,6 +58,7 @@ body{
 .badges li{background:#fff; border:1px solid #eaf4f4; padding:10px 12px; border-radius:12px}
 
 .hero-art{position:relative; min-height:360px}
+.hero-art img{max-width:100%; height:auto; display:block; margin:0 auto}
 .sun{position:absolute; top:20px; right:20px; width:120px; height:120px; background:radial-gradient(circle at 30% 30%, #fff2c6 0, #ffd26a 40%, #ffb74a 65%, transparent 66%); border-radius:50%; filter: drop-shadow(0 10px 30px rgba(255,183,74,.4)); animation: float 6s ease-in-out infinite}
 .palm{position:absolute; bottom:80px; width:100px; height:160px; background: linear-gradient(#0d3b35, var(--pine)); border-radius:10px 10px 40px 40px; transform:skewX(-6deg); box-shadow: inset 0 -8px 0 rgba(0,0,0,.15)}
 .palm:after{content:""; position:absolute; top:-26px; left:-14px; right:-14px; height:40px; background: conic-gradient(from 90deg, #0fb5b5, #0fb5b5 25%, transparent 0 50%, #0fb5b5 0 75%, transparent 0); border-radius: 50%; filter: blur(.5px); opacity:.9}
